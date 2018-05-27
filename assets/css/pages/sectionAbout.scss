@@ -1,0 +1,72 @@
+/*----------------------Контент-----------------------------*/
+.about-left{
+  width: 320px;
+}
+
+.about-right{
+  width: 380px;
+}
+
+.about-left__photo{
+  text-align: center;
+}
+
+.about-left__img{
+  width: 219px;
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+.about-rigth__description{
+  height: 317px;
+  overflow-y: auto;
+  font-weight: 300;
+  color: #646464;
+  font-size: 18px;
+}
+
+.about-rigth__description p{
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.about-rigth__description a{
+  color: #646464;
+}
+
+.about-rigth__list{
+  margin: 10px;
+  padding: 10px;
+}
+
+.about-rigth__item{
+  list-style: circle;
+}
+
+.download{
+  padding-top: 56px;
+  text-align: right;
+  // vertical-align: middle;
+}
+
+.download__link{
+  display: inline-block;
+  padding: 14px 15px 13px;
+  width: 173px;
+  border: 2px solid #e85f61;
+  border-radius: 20px;
+  color: #e85f61;
+  font-weight: 600;
+  text-decoration: none;
+  }
+
+.fa-download{
+  display: inline-block;
+  margin-right: 9px;
+}
+
+.download__link:hover{
+  color: #f6f6f6;
+  background-color: #e85f61;
+}

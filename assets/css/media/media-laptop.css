@@ -1,0 +1,43 @@
+@media screen and (max-width: 992px) {
+  .container {
+    width: 750px; }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 25px; }
+
+  .page {
+    width: 100%;
+    padding-left: 0; }
+
+  .menu__items {
+    text-align: left; }
+
+  .menu__item {
+    border-right: none; }
+
+  .menu__items--active {
+    border-right: none; }
+
+  .about-left {
+    width: 343px; }
+
+  .about-right {
+    width: 407px; }
+
+  .career-left {
+    width: 295px; }
+
+  .career-right {
+    width: 455px; }
+
+  .portfolio-block {
+    width: 237px; }
+
+  .portfolio-item {
+    margin: 0 15px 15px 0; }
+
+  .portfolio-item:nth-child(3n) {
+    margin: 0 0 15px 0; } }
+
+/*# sourceMappingURL=media-laptop.css.map */

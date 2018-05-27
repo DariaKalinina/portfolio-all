@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 480px; }
+
+  .contact {
+    visibility: hidden;
+    padding-top: 18px; }
+    .contact:after {
+      visibility: visible;
+      content: "\f095";
+      font-family: 'FontAwesome';
+      font-size: 32px;
+      color: #4db2ce; }
+
+  .footer {
+    height: 100px;
+    margin-top: -100px; }
+
+  .wrapper:after {
+    height: 100px; }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+    text-align: center; }
+
+  .social {
+    text-align: center; }
+
+  .menu__item {
+    padding-right: 32px; }
+
+  .about-left {
+    width: 100%; }
+
+  .about-right {
+    width: 100%; }
+
+  .title {
+    text-align: center;
+    margin: 0px 0px 13px; }
+
+  .download {
+    text-align: center;
+    padding-top: 30px; }
+
+  .career-left {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px; }
+
+  .career-right {
+    width: 100%; }
+
+  .career-right__item {
+    text-align: center;
+    padding-left: 0; }
+
+  .career-right__scale,
+  .career-right__block:after,
+  .career-right__block:before {
+    display: none; }
+
+  .portfolio-block {
+    width: 230px; }
+
+  .portfolio-item:nth-child(2n) {
+    margin: 0 0 15px 0; }
+
+  .portfolio-item:nth-child(3n) {
+    margin: 0 15px 15px 0; } }
+
+/*# sourceMappingURL=media-tablets.css.map */

@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Facebook {
+    width: 31px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-FacebookActive {
+    width: 31px;
+    height: 30px;
+    background-position: -46px -5px;
+}
+
+.sprite-Twitter {
+    width: 31px;
+    height: 30px;
+    background-position: -5px -45px;
+}
+
+.sprite-TwitterActive {
+    width: 31px;
+    height: 30px;
+    background-position: -46px -45px;
+}
+
+.sprite-Vk {
+    width: 32px;
+    height: 30px;
+    background-position: -87px -5px;
+}
+
+.sprite-VkActive {
+    width: 32px;
+    height: 30px;
+    background-position: -87px -45px;
+}

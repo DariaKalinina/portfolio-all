@@ -1,0 +1,88 @@
+/*-------------------------Общее-------------------------*/
+html, body{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+body{
+  font-family: "Fira", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.46;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #f6f6f6;
+}
+
+.wrapper{
+  min-height: 100%;
+  height: auto !important;
+  overflow: hidden;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.wrapper:after{
+  content: "";
+  height: 50px;
+  display: block;
+}
+
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+
+/*----------section-----------*/
+.content{
+  padding-top: 26px;
+}
+
+.sidebar,
+.page,
+.career-left,
+.career-right,
+.about-left,
+.about-right{
+  float: left;
+}
+
+.page {
+  width: 720px;
+  padding-left: 20px;
+}
+
+.title{
+  font-size: 35px;
+  font-weight: 500;
+  margin: 0px 0px 30px;
+}
+/*----------for all-----------*/
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+  font-weight: normal;
+}
+
+*{box-sizing: border-box;}

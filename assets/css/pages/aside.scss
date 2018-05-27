@@ -1,0 +1,35 @@
+/*----------------------Навигация-----------------------------*/
+.sidebar{
+  width: 220px;
+}
+
+.menu{
+  text-align: right;
+}
+
+.menu__link{
+  font-size: 16px;
+  color: #414141;
+  text-decoration: none;
+}
+
+.menu__item{
+  display: inline-block;
+  padding-top: 11px;
+  padding-right: 24px;
+  padding-bottom: 15px;
+  border-right: 6px solid rgba(0, 0, 0, 0);
+}
+
+.menu__items--active {
+  border-right: 6px solid #4db2ce;
+}
+
+.menu__items--active .menu__link{
+  color: #4db2ce;
+  font-weight: 600;
+}
+
+.menu__link:hover{
+  color: #4db2ce;
+}

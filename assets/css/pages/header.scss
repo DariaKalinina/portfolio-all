@@ -1,0 +1,59 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header-left,
+.header-right{
+  float: left;
+  width: 50%;
+  height: 79px;
+}
+
+.user{
+  padding-top: 10px;
+}
+
+.user__photo,
+.user__name{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.user__photo{
+  border-radius: 50%;
+  border: 1px solid #d7d7d7;
+  overflow: hidden;
+}
+
+.user__img{
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.user__name{
+  margin-left: 20px;
+  max-width: 235px;
+  font-size: 18px;
+  color: #414141;
+  overflow: hidden;
+}
+
+.header-right{
+  text-align: right;
+  font-size: 0px;
+}
+
+.contact{
+  display: inline-block;
+  position: relative;
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #32c3e5;
+  text-decoration: none;
+  background-image: url(../images/decor/PointContact.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}

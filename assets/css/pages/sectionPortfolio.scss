@@ -1,0 +1,71 @@
+/*----------------------Контент-----------------------------*/
+.portfolio-items{
+  text-align: left;
+}
+
+.portfolio-item{
+  display: inline-block;
+  margin:0 10px 15px 0;
+}
+
+.portfolio-block{
+  display: block;
+  width: 220px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 0 rgba(#000, .6);
+  text-decoration: none;
+  color: #727272;
+}
+
+.portfolio-block__img{
+  display: block;
+  width: 100%;
+  height: 170px;
+  &--lending1{
+    background: url('../../portfolio_index/lending/lending1.png') top left no-repeat;
+    background-size: cover;
+  }
+  &--shop1{
+    background: url('../../portfolio_index/shop/shop1.png') top center no-repeat;
+    background-size: cover;
+  }
+  &--slider{
+    background: url('../../portfolio_index/slider/slider.jpg') top center no-repeat;
+    background-size: cover;
+  }
+  &--task{
+    background: url('../../portfolio_index/task/task.png') top center no-repeat;
+    background-size: cover;
+  }
+  &--form{
+    background: url('../../portfolio_index/form/form.png') top center no-repeat;
+    background-size: cover;
+  }
+  &--burger{
+    background: url('../../portfolio_index/burger/burger.png') top center no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.portfolio-block__description{
+  padding: 20px;
+}
+
+.portfolio-block__title{
+  color: #4db2ce;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.portfolio-block__about{
+  padding-bottom: 15px;
+}
+
+.portfolio-block__app{
+  color: #727272;
+  font-weight: 500;
+  font-size: 13px;
+}
